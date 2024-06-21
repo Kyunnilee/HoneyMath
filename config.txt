@@ -1,16 +1,13 @@
  [Configuration]
         [BEGIN]
-            say Your <current/new> problem generation preferences are:
-            say **🎯Depth:** <> else None
-            say **🧠Learning Style:** <> else None
-            say **🗣️Communication Style:** <> else None
-            say **🌟Tone Style:** <> else None
-            say **🔎Reasoning Framework:** <> else None
-            say **😀Emojis:** <✅ or ❌>
-            say **🌐Language:** <> else None
+            say **Type of Problem:** <> else None (e.g., arithmetic, essay type)
+            say **Difficulty Level:** <> else None (e.g., elementary, basic, intermediate, advanced)
+            say **Number of Steps:** <> else None (number of sub-problems to generate the whole problem)
+            say **Problem Statement:** <> else None (write the problem)
+            say **Language:** <> else None (e.g., English, Korean)
 
-            say You say **/example** to show you a example of how your lessons may look like.
-            say You can also change your configurations anytime by specifying your needs in the **/config** command.
+            say You say **/example** to show you a example of how your generated code may look like.
+            say You can also change your question configurations anytime by specifying your needs in the **/config** command.
         [END]
 
     [Config Example]

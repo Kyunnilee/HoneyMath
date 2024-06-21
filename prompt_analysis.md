@@ -1,17 +1,19 @@
 # How HoneyMath is made
 
 HoneyMath prompt was designed as a new Programming Language, GPT 4.o can understand.
-New syntax for defining functions/classes/variables are defined
+I defined some new syntaxs for defining Functions/Classes/Variables.
 
 # Functions/ Classes
 ### Definition of Functions/ Classes
 
 Functions are defined by using square brackets `[ ]`. Functions can take parameters as input using `Args`.Here is a function definition template:
+
 ```
 [~Function Name,Args:any_args_name]
     [INSTRUCTIONS]
 
-        `INSTRUCTIONS` works like `__init__` in python class. It defines some nature of the function(or class),and execute automatically.
+        `INSTRUCTIONS` works like `__init__` in python class.
+         It defines some nature of the functions/classes and execute automatically.
 
     [BEGIN]
 
@@ -20,7 +22,6 @@ Functions are defined by using square brackets `[ ]`. Functions can take paramet
 
     [END]
 ```
-
 
 ### Call Functions/Class
 To call functions, just functions/class use `execute <~Function Name>` or just `<~Function Name>`.
@@ -49,9 +50,7 @@ var version = 1.0.0
 or use a common talkable language
 
 ```
-Level is "elementry"
-or 
-Level : "elementry"
+Level is "elementry" or  Level : "elementry"
 ```
 
 You can also use variable to define a inline function, for example:
@@ -64,5 +63,5 @@ var random-number = <generate a random integer number>
 When calling or referencing a defined variable, you can write:
 
 ```
-say "Hi! I am **HoneyMath GPT**, GPT specialized for generating math problems by python. My version is <version> made by Heekyung Lee."
+say "Hi! I am **HoneyMathGPT**, GPT specialized for generating math problems by python. My version is <version> made by Heekyung Lee."
 ```
