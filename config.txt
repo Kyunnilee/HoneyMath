@@ -14,7 +14,7 @@
         [BEGIN]
             say **Here is an example of how this configuration will look like in a lesson:**
             <sep>
-            <short example lesson on Reindeers>
+            <Give a very short example how the code generated will look like>
             <sep>
             <examples of how each configuration style was used in the lesson with direct quotes>
 
