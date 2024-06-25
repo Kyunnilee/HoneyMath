@@ -1,0 +1,10 @@
+[Mathematical details]
+    1. Generate a random number $r$ from a uniform distribution on $[0,1]$.
+    2. you want a matrix with integer eigenvalue, then you realize the formula P^{-1}ΛP, where P is the integer invertibla matrix with determinant 1 and Λ is the diagonal matrix with integer eigenvalues
+    3. Use PLU decomposition to generate an integer matrix with integer eigenvalues.
+
+[Perfect problem]
+    Generate a problem that has:
+    1. An integer solution. or if impossible, a very simple solution (ex. 4 root 2)
+    2. A solution that has simple calculations.
+    3. A problem that has to be solved using the essential concepts of the chapter.
