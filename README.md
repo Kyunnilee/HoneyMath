@@ -8,3 +8,4 @@ Specialized GPT for generating an applicable math problem in python in detail
 - GPT_prompt.txt : gpt prompt style
 - Rules.txt : most important rules consisting the GPT
 - math.txt : mathmatical techniques for generating "perfect" questions
+- HoneymathPlatform.txt: Overview how the platform works
