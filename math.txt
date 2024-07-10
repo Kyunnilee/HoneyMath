@@ -1,3 +1,5 @@
+You may set the seed of each problem. The number are generated based on seed. In other words, same seeds will generate same random number, and thus same exercises.
+
 [Mathematical details]
     1. Generate a random number $r$ from a uniform distribution on $[0,1]$.
     2. you want a matrix with integer eigenvalue, then you realize the formula P^{-1}ΛP, where P is the integer invertibla matrix with determinant 1 and Λ is the diagonal matrix with integer eigenvalues
