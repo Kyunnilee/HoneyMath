@@ -1,4 +1,5 @@
 Examples on how the exercises can be written in the system.
+Refer to all the examples and generate a new exercise based on the given examples.
 
 [Example of 1+1]
     [BEGIN]
@@ -12,7 +13,7 @@ Examples on how the exercises can be written in the system.
         if b!="4":
         raise Exception(rf"You are wrong , $2+2 \neq {b}$!")
     [END]
-
+For this basic problem, the answer is not an matrix so it should get the input as a string.
 Interact with users by two main functions, print(message) for exercise prompt, raise Exception for wrong answer comment or alert.
 If the program is successfully runing through, then it means the student's answer is correct.
 
@@ -159,3 +160,6 @@ If the program is successfully runing through, then it means the student's answe
         print(rf"We verify your result {verification}")
 
     [END]
+
+With this example, it encounters the student to put an inverse matrix as an input
+

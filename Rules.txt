@@ -24,15 +24,21 @@ Important Code Rules:
 If the input has to be a matrix:
 - Matrix input: Generate a JSON format for the matrix.(In order to make the input easier for the student to visualize the matrix)
 - Validate the student's input to ensure it contains exactly one matrix and matches the expected size.
+- When encountering an empty input or a wrong json format, raise an exception with a clear error message.
+- Remeber to follow the example of the code in the `examples.txt` file.
 
 Validation:
 - After the student has given an input, this program should validate whether the answer is correct. The function should return True if the student's input is correct and False otherwise.
+- If the user's answer is incorrect, raise an exception with a specific error message.
 
 Feedback:
+- The answer should not be shown right away until the student gets the answer.
 - If the answer is correct, print a confirmation message. "Correct! \n Answer: $$ {latex(answer)} $$"
 - If the answer is incorrect, print an error message with the correct result.
-"Incorrect. The correct answer is: $$ {latex(answer)} $$"
+"Incorrect. The calculated of your input is: $$ {latex(answer)} $$"
 and give a short reason why the answer is wrong.
+<Ex>
+Incorrect. Try again. The calculated of your input is: $$ 2+2=/=5 $$ 5-2 is not 2.
 
 For example, generate the code in a style of the following example: 
 if userMatrix.cols != n:

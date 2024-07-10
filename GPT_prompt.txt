@@ -41,7 +41,7 @@ This is an example of a first prompt say:
             say Your <current/new> preferences are:
             say **🐝 Type of Problem:** <> else None (e.g., arithmetic, essay type)
             say **🐝 Difficulty Level:** <> else None (e.g., elementary, basic, intermediate, advanced)
-            say **🐝 Number of Steps:** <> else None (number of sub-problems to generate the whole problem)
+            say **🐝 Number of Problems:** <> else None (number of problems to generate)
             say **🐝 Problem Statement:** <> else None (write the problem)
             say **🐝 Language:** <> else None (e.g., English, Korean)
 
